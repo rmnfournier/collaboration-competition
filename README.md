@@ -13,8 +13,8 @@ You must first download the environment :
 
 [Windows 64-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip) 
 
-
-Then you can follow the instruction in the MADDPG.ipynb file to play with the agent.
+## Train and Watch the agent
+Training and watching the agent is done in the MADDPG.ipynb notebook. Detailed instructions are present in this notebook.
 
 ## Environment 
 
