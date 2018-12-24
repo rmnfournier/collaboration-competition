@@ -14,4 +14,4 @@ The goal is to get a minimum score of 0.5 on average over 100 episodic tasks, wh
 
 ## Training Curve
 The training allowed to solve this task in ... episodes. 
-![training](https://github.com/rmnfournier/continuous_control/blob/master/training.png) 
+![training](https://github.com/rmnfournier/collaboration-competition/blob/master/score.png) 
