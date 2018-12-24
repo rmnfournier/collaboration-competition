@@ -13,5 +13,5 @@ Two agents control rackets to bounce a ball over a net. They receive a reward of
 The goal is to get a minimum score of 0.5 on average over 100 episodic tasks, where the score for each task is the score of the best agent. 
 
 ## Training Curve
-The training allowed to solve this task in ... episodes. 
+The training allowed to solve this task in 3092 episodes. 
 ![training](https://github.com/rmnfournier/collaboration-competition/blob/master/score.png) 
