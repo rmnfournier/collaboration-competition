@@ -13,6 +13,13 @@ On their side, each one the DDPG agent has :
  1. An actor seeing the state corresponding to its player and performing an action for it 
  2. A critic seeing the whole picture, i.e. the state of both agents, and estimating the action-value function.  
 
+The training procedure goes like this (once again, see continuous control repository for more details about DDPG) : 
+
+ 1) States, actions, rewards, next states are collected in a single replay buffer.
+
+2) Each agent samples a batch of experiences from the replay buffer and asks the other agent to propose an action for each state and next states
+
+3) Each agent is trained like DDP agents, with minor differences. The critic takes as input the states of all agents. The best actions and best next actions are estimated thanks to both agents.  
 
 ## Neural Network Architecture (For each DDPG agent)
 ### Critic
@@ -35,6 +42,7 @@ On their side, each one the DDPG agent has :
 2. Replay Buffer size: 1000000
 3. Batch size: 128
 4. Gamma : 0.99
+5. Number of updates : 5
 
 ## Results
 The agent managed to solve the task, i.e., reaching an average score of 0.5 over the last 100 episodes, in 3092 episodes. The score of one episode is defined as the best score over both agents. 
