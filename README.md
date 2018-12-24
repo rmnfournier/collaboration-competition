@@ -2,7 +2,19 @@
 3th (and final) project of Udacity's Deep Learning Nanodegree program
 
 ## Instructions
-Follow the instructions found in the MADDPG.ipynb to download the environment and play with the agents. 
+
+You must first download the environment : 
+
+[Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+
+[Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip) 
+
+[Windows 32-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
+
+[Windows](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip) 
+
+
+Then you can follow the instruction in the MADDPG.ipynb file to play with the agent.
 
 ## Environment 
 
@@ -13,6 +25,6 @@ Two agents control rackets to bounce a ball over a net. They receive a reward of
 The goal is to get a minimum score of 0.5 on average over 100 episodic tasks, where the score for each task is the score of the best agent. 
 
 ## Training Curve
-The training allowed to solve this task in 3092 episodes. 
+The training allowed to solve this task in 3092 episodes. See report.md file for more details. 
 
 ![training](https://github.com/rmnfournier/collaboration-competition/blob/master/score.png) 
