@@ -6,7 +6,7 @@ Author: Romain Fournier
 
 Date: 24.12.2018
 
-## Big Picture
+## Description of the implementation
 This environment was solved by tunning the DDPG algorithm described in the second project of this course (see continuous control repository). Basically, a super agent called MultiAgentDDPG(MADDPG) handles the training of two DDPG agents, each one of them corresponding to one of the two players. In particular, this MADDPG agent handles a common replay buffer for its two subagents. 
 
 On their side, each one the DDPG agent has :
