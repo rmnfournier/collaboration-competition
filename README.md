@@ -20,7 +20,7 @@ Then you can follow the instruction in the MADDPG.ipynb file to play with the ag
 
 ![movie](https://github.com/rmnfournier/collaboration-competition/blob/master/final.gif)
 
-Two agents control rackets to bounce a ball over a net. They receive a reward of +0.1 for hitting the ball over the net and a reward of -0.01 for letting the ball hit the ground or hitting it out of bounds. Thus, each agent wants to keep the ball in play as long as possible. Each agent perceive a state of dimensionality 24 and must take an action a $\in$ [-1,1]x[-1,1]. 
+Two agents control rackets to bounce a ball over a net. They receive a reward of +0.1 for hitting the ball over the net and a reward of -0.01 for letting the ball hit the ground or hitting it out of bounds. Thus, each agent wants to keep the ball in play as long as possible. Each agent perceive a state of dimensionality 24 and must take an action in the real square [-1,1]x[-1,1]. 
 
 The goal is to get a minimum score of 0.5 on average over 100 episodic tasks, where the score for each task is the score of the best agent. 
 
